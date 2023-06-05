@@ -1,0 +1,100 @@
+name: samplenavigationwithgrorouter
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+    #State Management
+  hooks_riverpod: ^2.3.2
+  flutter_hooks: ^0.18.6
+ #API's 
+  http: ^0.13.5
+ #VideoPlayer
+  video_player: ^2.6.1
+  chewie: ^1.4.0
+  youtube_player_flutter: ^8.1.2
+ #ENV File
+  flutter_dotenv: ^5.0.2
+
+  cupertino_icons: ^1.0.2
+  go_router: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^2.0.0
+  
+
+
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - .env
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
